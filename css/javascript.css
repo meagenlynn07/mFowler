@@ -1,0 +1,135 @@
+body{
+    margin-top: 30px;
+    text-align: center;
+    color: white; 
+    /* height: 7500px; */
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #f9ab13, #e2c25d,#c5dfba, #bfe5cc, #beffde);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+/* .name-tilt {
+    transform: rotate(-25deg);
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    float: left;
+    padding-left: 30px;
+    color: greenyellow;
+    position: fixed;
+} */
+a {
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+}
+a:hover
+  {
+    color: #468499;
+    text-decoration:none;
+    cursor:pointer;
+   }
+.languageOptions {
+    border-left: 1px solid white;
+    padding: 10px;
+    font-size: 25px;
+    height: 25px;;
+ }
+ #header-container {
+     float: right;
+ }
+ #project-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-right: 1px solid white;
+    width: 1200px;
+    height: 650px;
+    overflow: scroll;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+ }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.fa-lg {
+    padding-left: 10px;
+}
+.placeholder {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+.placeholderDiv {
+    float: left;
+}
+.placeholderDiv:hover
+  {
+    color: #468499;
+    text-decoration:none;
+    cursor:pointer;
+   }
+
+   
